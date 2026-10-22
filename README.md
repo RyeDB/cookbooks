@@ -52,4 +52,4 @@ await runWorker(ch, async (task) => `reindexed: ${task.body}`);
 
 ## Contributing
 
-Recipes should stay small, have a test that fails without them, and say what they do not handle. See the [contributing guide](https://github.com/RyeDB/.github/blob/main/CONTRIBUTING.md). Contributions are licensed under Apache-2.0. Report a vulnerability through [SECURITY.md](https://github.com/RyeDB/.github/blob/main/SECURITY.md).
+Recipes should stay small, have a test that fails without them, and say what they do not handle. See the [contributing guide](https://github.com/RyeDB/.github/blob/main/CONTRIBUTING.md). Copyright (c) 2026 RyeDB. Licensed and contributions accepted under Apache-2.0 ([NOTICE](NOTICE)). Report a vulnerability through [SECURITY.md](https://github.com/RyeDB/.github/blob/main/SECURITY.md).

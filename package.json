@@ -1,0 +1,20 @@
+{
+  "name": "@ryedb/cookbooks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Recipes for RyeDB's open interfaces: RyeChannel workers, CI notifiers and task dispatchers built on the SDK",
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "node --test \"test/*.test.ts\""
+  },
+  "dependencies": {
+    "@ryedb/sdk": "github:RyeDB/SDK"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.0",
+    "typescript": "^5.9.0"
+  }
+}

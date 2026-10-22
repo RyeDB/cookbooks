@@ -1,6 +1,6 @@
-# RyeDB cookbooks
+# RyeDB™ cookbooks
 
-Small, tested recipes for RyeDB's open interfaces. Each one is a few dozen lines on top of the [`@ryedb/sdk`](https://github.com/RyeDB/SDK) RyeChannel client: copy it, change it, make it yours. Apache-2.0.
+Small, tested recipes for RyeDB™'s open interfaces. Each one is a few dozen lines on top of the [`@ryedb/sdk`](https://github.com/RyeDB/SDK) RyeChannel client: copy it, change it, make it yours. Apache-2.0.
 
 ```mermaid
 flowchart LR
@@ -53,3 +53,7 @@ await runWorker(ch, async (task) => `reindexed: ${task.body}`);
 ## Contributing
 
 Recipes should stay small, have a test that fails without them, and say what they do not handle. See the [contributing guide](https://github.com/RyeDB/.github/blob/main/CONTRIBUTING.md). Copyright (c) 2026 RyeDB. Licensed and contributions accepted under Apache-2.0 ([NOTICE](NOTICE)). Report a vulnerability through [SECURITY.md](https://github.com/RyeDB/.github/blob/main/SECURITY.md).
+
+---
+
+RyeDB™ is a trademark of RyeDB. The Apache-2.0 licence covers the code; it does not grant permission to use the name or logo (section 6).
